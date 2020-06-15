@@ -7,5 +7,7 @@ spec:
     app: argoplay-app
   ports:
     - protocol: TCP
-      port: 34287
-      targetPort: 5000
+      port: 8427
+      targetPort: 8080
+      name: argoplayport
+  type: LoadBalancer
