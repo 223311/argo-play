@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: argoplay-service
+spec:
+  selector:
+    app: argoplay-app
+  ports:
+    - protocol: TCP
+      port: 34287
+      targetPort: 5000
