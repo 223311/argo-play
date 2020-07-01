@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: argoplay-app
-        image: sankar31/droneex:164
+        image: sankar31/droneex:165
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
